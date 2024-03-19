@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color: rgb(97, 100, 101, 0.3);
+    cursor: pointer;
+}
+
+button:active{
+    border: none;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    background-color: rgb(55, 56, 56,033.33%);
+
+}
+.desabilitado:active{
+    
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color: rgb(97, 100, 101, 0.3);
+}
+
+#numeros button:hover, #operadores button:hover, #letras button:hover {
+    background-color: rgb(55, 56, 56,033.33%)
+}

@@ -1,0 +1,131 @@
+body {
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    font-family: 'Oxanium', cursive;
+    gap: 30px;
+}
+body::before {
+    content: "";
+    background-image: url(../assets/_86452ad9-5d0d-4eca-ab56-1558020ff971.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+h1 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap: 10px;
+    color: white;
+    background-color: rgb(46, 49, 50, 0.9);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#calculadora {
+    background-color: rgb(46, 49, 50, 0.9);
+    width: 60%;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px gray;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "visor"
+    "convertidos"
+    "teclado"
+    ;
+    grid-template-rows: 1fr 1fr 3fr;
+    grid-template-columns: 100%;
+    gap: 15px;
+    
+    
+    
+}
+
+#visor {
+    padding: 30px;
+    grid-area: visor;
+    text-align: end;
+    margin-right: 30px;
+    font-size: 40px;
+    flex-direction: column;
+}
+#previous_op, #current_op {
+    min-height: 1.6em;
+    overflow-wrap: break-word;
+}
+#visor #previous_op {
+    font-size: 20px;
+    color: lightslategray; 
+}
+#visor #current_op {
+    font-weight: 700;
+}
+#numeros-convertidos {
+    margin-left: 15px;
+    grid-area: convertidos;
+    border-top: 2px solid gray;
+    padding-top: 20px;
+}
+#operacoes-e-numeros {
+    
+    border-top: 3px solid gray;
+    display: flex;
+    gap: 1px;
+}
+#operadores {
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    
+    gap: 1px;
+    order: 3;
+}
+#operadores button {
+    flex-grow: 1;
+    background-color: rgb(177, 183, 183, 033.33%);
+    color: white;
+}
+#numeros {
+    flex-grow: 2;
+    display: flex;
+    flex-flow: row wrap;
+    order: 2;
+    gap: 1px
+}
+#numeros button {
+    flex-grow: 1;
+    flex-basis: calc(33.33% - 2px);
+    color: white;
+}
+#letras {
+    flex-grow: 1;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#letras button {
+    flex-grow: 1;
+    color: white;    
+}
+
+.desabilitado {
+    background-color: rgb(55, 56, 56,0.2);
+    
+}
+
+
+

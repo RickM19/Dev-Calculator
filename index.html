@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/assets/icons8-calculadora-16.png">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="./src/script/script.js" defer></script>    
+    <title>Calculadora Programadora</title>
+
+</head>
+<body>
+    <header><h1><img src="./src/assets/icons8-calculadora-64.png" alt="CalcIcon">Developer Calculator</h1></header>
+    <div id="calculadora">
+        <div id="visor"><p id="previous_op"></p><p id="current_op">0</p></div>
+        <div id="numeros-convertidos">
+            <p id="hex" class="numeros-convertidos">HEX 0</p>
+            <p id="deci" class="numeros-convertidos">DEC 0</p>
+            <p id="oct" class="numeros-convertidos">OCT 0</p>
+            <p id="bin" class="numeros-convertidos">BIN 0</p>
+        </div>
+        <div id="operacoes-e-numeros">
+            <div id="operadores">
+                <button value="Delete">CLEAR</button>
+                <button value="Backspace"><img src="./src/assets/clear.svg" alt="X" width="20px"></button>
+                <button class="operd " value="/">/</button>
+                <button class="operd " value="*">*</button>
+                <button value="+">+</button>
+                <button value="-">-</button>
+                
+                <button value="=">=</button>
+            </div>
+            <div id="numeros">
+                <!--Linha 3-->
+                <button class="numbers-notbin number" value="7">7</button>
+                <button class="numbers-notbin number" value="8">8</button>
+                <button class="numbers-notbin number" value="9">9</button>
+                <!--Linha 2-->
+                <button class="numbers-notbin number" value="4">4</button>
+                <button class="numbers-notbin number" value="5">5</button>
+                <button class="numbers-notbin number" value="6">6</button>
+                <!--
+                    os números com a classe notbin são todos menos 1 e 0
+                -->
+                <!--Linha 1-->
+                <button class="number" value="1">1</button>
+                <button class="numbers-notbin number" value="2">2</button>
+                <button class="numbers-notbin number" value="3">3</button>
+
+                <button class="number" value="0">0</button>
+                <button class="number" value=".">.</button>
+            </div>
+            <div id="letras">
+                <button disabled class="desabilitado">A</button>
+                <button disabled class="desabilitado">B</button>
+                <button disabled class="desabilitado">C</button>
+                <button disabled class="desabilitado">D</button>
+                <button disabled class="desabilitado">E</button>
+                <button disabled class="desabilitado">F</button>
+            </div>
+            
+        </div>
+    </div>
+    <div id="memoria"></div>
+</body>
+</html>

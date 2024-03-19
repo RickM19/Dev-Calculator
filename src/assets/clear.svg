@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,1024,1024">
+	<desc>clear icon - Licensed under Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0) - Created with Iconfu.com - Derivative work of Material icons (Copyright Google Inc.)</desc>
+	<defs>
+		<linearGradient x1="0" y1="1024" x2="1024" y2="0" gradientUnits="userSpaceOnUse" id="color-izRCcrVB">
+			<stop offset="0.2" stop-color="#fff"/>
+			<stop offset="0.8" stop-color="#fff"/>
+		</linearGradient>
+		<radialGradient cx="0" cy="0" r="1448.15" gradientUnits="userSpaceOnUse" id="color-UtoyxKBT">
+			<stop offset="0.08" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+	</defs>
+	<g fill="none" fill-rule="nonzero" style="mix-blend-mode: normal">
+		<path d="M605.36,512l208.48,208.48c10,10 10,26.21 0,36.2l-57.15,57.15c-10,10 -26.21,10 -36.2,0l-208.48,-208.48l-208.48,208.48c-10,10 -26.21,10 -36.2,0l-57.15,-57.15c-10,-10 -10,-26.21 0,-36.2l208.48,-208.48l-208.48,-208.48c-10,-10 -10,-26.21 0,-36.2l57.15,-57.15c10,-10 26.21,-10 36.2,0l208.48,208.48l208.48,-208.48c10,-10 26.21,-10 36.2,0l57.15,57.15c10,10 10,26.21 0,36.2zM795.74,285.42l-57.15,-57.15l-226.58,226.58l-226.58,-226.58l-57.15,57.15l226.58,226.58l-226.58,226.58l57.15,57.15l226.58,-226.58l226.58,226.58l57.15,-57.15l-226.58,-226.58z" fill="url(#color-izRCcrVB)"/>
+		<path d="M605.36,512l208.48,208.48c10,10 10,26.21 0,36.2l-57.15,57.15c-10,10 -26.21,10 -36.2,0l-208.48,-208.48l-208.48,208.48c-10,10 -26.21,10 -36.2,0l-57.15,-57.15c-10,-10 -10,-26.21 0,-36.2l208.48,-208.48l-208.48,-208.48c-10,-10 -10,-26.21 0,-36.2l57.15,-57.15c10,-10 26.21,-10 36.2,0l208.48,208.48l208.48,-208.48c10,-10 26.21,-10 36.2,0l57.15,57.15c10,10 10,26.21 0,36.2zM795.74,285.42l-57.15,-57.15l-226.58,226.58l-226.58,-226.58l-57.15,57.15l226.58,226.58l-226.58,226.58l57.15,57.15l226.58,-226.58l226.58,226.58l57.15,-57.15l-226.58,-226.58z" fill="url(#color-UtoyxKBT)"/>
+	</g>
+</svg>
