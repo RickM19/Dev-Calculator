@@ -8,7 +8,7 @@
 
 
 ## 🛠 Funcionalidades
-Versão 1.0
+Versão 0.0.1
 - [x] Utilizar clique ou leitura de teclado
 - [x] Realizar operações básicas
 - [ ] Converter o número digitado em decimal para outros sistemas de númeração: Binário, Octal, Hexadecimal
